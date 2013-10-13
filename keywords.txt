@@ -1,0 +1,57 @@
+#######################################
+# Syntax Coloring Map For Ultrasound
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+OlcbNodeId	KEYWORD1
+
+OlcbEvent	KEYWORD1
+
+OlcbLink	KEYWORD1
+OlcbCanLink	KEYWORD1
+OlcbMCP2515	KEYWORD1
+
+OlcbConsumer	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+# OlcbNodeID
+resolve	KEYWORD2
+getData	KEYWORD2
+getAlias	KEYWORD2
+trace	KEYWORD2
+equals	KEYWORD2
+print	KEYWORD2
+println	KEYWORD2
+
+# OlcbEvent
+set	KEYWORD2
+setSource	KEYWORD2
+getSourceNodeId	KEYWORD2
+getSourceAlias	KEYWORD2
+getMTI	KEYWORD2
+getData	KEYWORD2 
+equals	KEYWORD2
+print	KEYWORD2
+println	KEYWORD2
+
+# OlcbEvent
+begin	KEYWORD2
+isReady	KEYWORD2
+subscribe	KEYWORD2
+getNodeId	KEYWORD2
+event	KEYWORD2
+txtEvent	KEYWORD2
+post	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+OLCB_MIT_PCER	LITERAL1
+OLCB_MIT_PTE	LITERAL1
+
